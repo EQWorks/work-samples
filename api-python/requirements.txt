@@ -12,7 +12,6 @@ jinja2==2.9.6             # via flask
 markupsafe==1.0           # via jinja2
 pip-tools==1.9.0
 psycopg2==2.7.1
-pyyaml==3.12
 simplejson==3.10.0
 six==1.10.0               # via pip-tools
 sqlalchemy==1.1.10
