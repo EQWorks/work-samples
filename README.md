@@ -22,4 +22,4 @@ For the *client-side design* aspect, you may consume a [hosted version](https://
 
 ### Data
 
-_WIP_
+You will solve problems using the `data-mr`](data-mr) work sample. The work sample resembles our data processing and analytics setup. [Apache Spark](http://spark.apache.org/) is our choice to implement map reduce and machine learning jobs.
