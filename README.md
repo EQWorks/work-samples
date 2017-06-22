@@ -22,4 +22,4 @@ You will receive problems that cover both server-side and client-side design asp
 
 For the *server-side* aspect, you will solve problems using one of [`api-python`](api-python) or [`api-node`](api-node) work samples.
 
-For the *client-side design* aspect, you may consume a [hosted version](https://eq-work-samples-api.herokuapp.com) of the same API provided as the `api-python` work sample.
+For the *client-side design* aspect, you can either leverage one of the `api-*` work samples, or you may consume a [hosted version](https://eq-work-samples-api.herokuapp.com) on Heroku (uses `api-python`). Either way, you will need to explore one of the `api-*` work samples for API endpoint details (as no API documentation will be given). You are strongly recommended to clone and run your own copy of the API, as that allows the maximum flexibility for your solutions (for example, you can modify the API endpoints to suit your client-side implementation needs).

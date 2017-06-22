@@ -1,8 +1,6 @@
 ## Hosted version
 
-If you intend to focus on the client-side design aspect of the problem set, you can start by leveraging the hosted version at https://eq-work-samples-api.herokuapp.com
-
-However, you'd still need to explore the source code to understand the routes. Eventually you're encourage to run your own copy either locally or remotely (see below [Setup and Run](#setup-and-run)) to maximize flexibility.
+If you intend to focus on the client-side design aspect of the problem set, you can start by leveraging the hosted version at <https://eq-work-samples-api.herokuapp.com>
 
 ## Environment
 
@@ -23,3 +21,9 @@ Alternatively, if you're familiar with [Heroku](https://www.heroku.com/) (free a
 3. Go to the `work-samples` project root and do `git subtree push --prefix api-python heroku master` (assuming `heroku` is the Heroku remote name)
 
 _Note_: you'll be given necessary `SQL_URI` value along with the problem set
+
+## Notes on working through the problems
+
+Make sure any external dependencies are properly added into `requirements.in`, "compiled" through `$ pip-compile requirements.in`, and can be installed using `$ pip install -r requirements.txt`. We encourage a healthy mixture of your own implementations, and good choices of existing open-source libraries/tools. We will comment in the problems to indicate which ones cannot be solved purely through an off-the-shelf solution.
+
+Your submission should be in the form of your local work sample repository packaged using [`git-archive`](https://git-scm.com/docs/git-archive) command. Do not include anything that's ignored by `.gitignore` file.
