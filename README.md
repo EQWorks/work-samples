@@ -14,7 +14,7 @@ You will solve problems using the [`backend-go`](backend-go/src/counter) work sa
 
 ### Data
 
-You will solve problems using the `data-mr`](data-mr) work sample. The work sample resembles our data processing and analytics setup. [Apache Spark](http://spark.apache.org/) is our choice to implement map reduce and machine learning jobs.
+You will solve problems using the [`data-mr`](data-mr) work sample. The work sample resembles our data processing and analytics setup. [Apache Spark](http://spark.apache.org/) is our choice to implement map reduce and machine learning jobs.
 
 ### Frontend and Design
 
