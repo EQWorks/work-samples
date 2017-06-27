@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  # Flask app
+  app:
+    restart: always
+    build: .
+    ports:
+      - '5000:5000'
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/venv
+    env_file: .env
+    environment:
+      - FLASK_DEBUG=1
+      - FLASK_APP=/usr/src/app/app.py
+    command: /usr/local/bin/flask run --host=0.0.0.0 --port=5000
