@@ -20,6 +20,13 @@ Alternatively, if you're familiar with [Heroku](https://www.heroku.com/) (free a
 2. Configure Heroku environment variable `heroku config:set SQL_URI='<SQL connection URI>'`
 3. Go to the `work-samples` project root and do `git subtree push --prefix api-python heroku master` (assuming `heroku` is the Heroku remote name)
 
+Or, if you already have Docker setup and running:
+
+0. Clone this repository and change directory to `api-node`
+1. Store `SQL_URI=<SQL connection URL>` into a `.env` file
+2. Run `$ docker-compose up` (or `$ docker-compose up -d` to run in the background)
+3. Open your browser and point to `localhost:5000` and you should see `Welcome to EQ Works 😎`
+
 _Note_: you'll be given necessary `SQL_URI` value along with the problem set
 
 ## Notes on working through the problems
