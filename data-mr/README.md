@@ -8,7 +8,7 @@ The provided `docker-compose.yml` and Spark configurations in `conf` directory a
 
 0. Make sure Docker is installed properly and `docker-compose` is ready to use
 1. Run `$ docker-compose up -d` (you can also run the Docker containers foreground without `-d` if you wish)
-2. Check Spark UI at `localhost://8080` and you should see 1 master and 1 worker. Should you need more worker instances, simply do `$ docker-compose scale worker=<Number of Workers>`.
+2. Check Spark UI at `http://localhost:8080` and you should see 1 master and 1 worker. Should you need more worker instances, simply do `$ docker-compose scale worker=<Number of Workers>`.
 
 ## Notes on working through the problems
 
