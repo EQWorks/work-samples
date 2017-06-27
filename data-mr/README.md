@@ -21,4 +21,4 @@ On submission, we will need:
 1. Source code of the solution
 2. Build instructions for job packaging (unless your solution is a single `.py`), such as [Maven](https://maven.apache.org/) or [SBT](http://www.scala-sbt.org/) for Scala/Java, or `setup.py` for Python `.zip/.egg`
 
-Make sure the jobs can be submitted (through `spark-submit` command) in the Spark Master container (you can enter its shell using `docker exec -it dockerspark_master_1 /bin/bash`). There is a `data` directory provided that maps between the Spark Master container and your host system, which is accessible as `/tmp/data` within the Docker container -- this is where you want to place both your jobs and work sample data, the latter is already included.
+Make sure the jobs can be submitted (through `spark-submit` command) in the Spark Master container (you can enter its shell using `docker exec -it datamr_master_1 /bin/bash`). There is a `data` directory provided that maps between the Spark Master container and your host system, which is accessible as `/tmp/data` within the Docker container -- this is where you want to place both your jobs and work sample data, the latter is already included.
